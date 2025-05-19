@@ -1,5 +1,7 @@
 package com.erpcontrole.erp.repository;
 
-public class ProdutoRepository {
-    
+import com.erpcontrole.erp.model.Produto;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProdutoRepository extends JpaRepository<Produto, Long> {
 }
